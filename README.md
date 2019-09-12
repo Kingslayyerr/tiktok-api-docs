@@ -14,19 +14,19 @@ This endpoint allows you to log in to Tiktok with your username & password.
 
 Path Parameter | Description | 
 ------------ | -------------
-{loginWithUsername} | The email you are using to sign in.
+{loginWithUsername} | The username you are using to sign in.
 
 ### Query string parameters
 
 Query string paramater | Required/Optional | Description | Type |
 ------------ | ------------- |------------ | ------------- |
-email | Required | The email address you are using to sign in. | String
+username | Required | The username you are using to sign in. | String
 password | Required | The password for your account. | String
 
 # Sample Request
 
 ```js
-curl -I -X POST "https://api.tiktokunofficial.org/api/{loginWithUsername('<email>', '<password>')}"
+curl -I -X POST "https://api.tiktokunofficial.org/api/{loginWithUsername('<username>', '<password>')}"
 ```
 # Sample Response
 
