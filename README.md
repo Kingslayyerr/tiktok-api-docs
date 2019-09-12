@@ -22,7 +22,11 @@ Make sure you have the latest version of NPM installed
 ```unix
  npm i tiktok-api
 ```
+## Creating an instance
 
+[Click here](https://github.com/szdc/tiktok-api/blob/master/README.md) to see how to create an instance of the API.
+
+# Usage
 
 # Endpoint
 
