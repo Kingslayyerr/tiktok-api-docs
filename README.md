@@ -4,7 +4,7 @@ A reverse engineered API for the Tiktok application. Contains information about 
 
 ## Endpoints
 
-### POST api/+{loginWithUsername}
+### POST api/{loginWithUsername}
 
 This endpoint allows you to log in to Tiktok with your username & password.
 
