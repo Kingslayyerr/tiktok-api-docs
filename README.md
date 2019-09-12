@@ -4,7 +4,7 @@ A reverse engineered API for the Tiktok application. Contains information about 
 
 ## Endpoints
 
-### POST api/{loginWithUsername}
+### POST api/+{loginWithUsername}
 
 This endpoint allows you to log in to Tiktok with your username & password.
 
@@ -35,7 +35,7 @@ curl -I -X POST "https://api.tiktokunofficial.org/api/{loginWithUsername('<email
 {
     "avatar_url":  "www.tiktok/username/profile_img,
     "birthday": "December 1, 1990",
-    "can_be_found_by_phone": 562-322-4455,
+    "can_be_found_by_phone": 562-323-9876,
     "email": "jonnybonny@gmail.com",
     "mobile": "562-323-3456",
     "new_user": 1
