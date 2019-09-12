@@ -14,6 +14,12 @@ It shows a Tiktok users followers, people they are following, and other valuable
 
 # Getting Started
 
+This API is equipped with many useful instance methods that allow a user to perform function such as **Logging-In**, **Getting User ID's**, and **Post ID's**. This allows a user of this API to scrape valuable **JSON** data. This data can be used to create another application that leverages Tiktok's database. 
+
+An example of this type of third party application is SocialBlade. SocialBlade gathers data on the most popular platforms allowing influencers to track their engagement and analytics. Social blade currently does not have an integration for Tiktok. 
+
+This API solves that problem.
+
 ## Installation
 
 Make sure you have the latest version of NPM installed
@@ -194,6 +200,12 @@ rate | Age rating for the video. | Integer
 ## Legal
 
 This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by TikTok
-or any of its affiliates or subsidiaries. This is an independent and unofficial API. Use at your own risk.
+or any of its affiliates or subsidiaries. 
+
+This is an independent and unofficial API. Use at your own risk.
+
+## Bonus
+
+I reverse engineer applications to understand how they work. Every software application is unique, and it is a joy to discover how they are different. 
 
 
