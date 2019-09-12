@@ -1,6 +1,8 @@
 # Tiktok-API (unofficial)
 
-A reverse engineered API for the Tiktok application. Contains information about users. It shows a users followers, people they are following, and post information.
+This API shows a Tiktok users followers, people they are following, and post information. 
+
+Use Case: A Tiktok user who wants to keep track of his/her statistics to measure their account performance over time.
 
 # Endpoint
 
