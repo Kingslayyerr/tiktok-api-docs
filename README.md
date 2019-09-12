@@ -1,8 +1,28 @@
 # Tiktok-API (unofficial)
 
-This API shows a Tiktok users followers, people they are following, and post information. 
+## Free Analytics!
 
-Use Case: A Tiktok user who wants to keep track of his/her statistics to measure their account performance over time.
+Love using Tiktok? 
+
+So do we!
+
+This free API allows you to gain a deeper understanding of your Tiktok metrics, analytics and data.
+
+It shows a Tiktok users followers, people they are following, and other valuable post information. 
+
+**Use Case:** A Tiktok user who wants to keep track of his/her statistics to measure their account performance over time.
+
+# Getting Started
+
+## Installation
+
+Make sure you have the latest version of NPM installed
+
+run this command in your terminal:
+```unix
+ npm i tiktok-api
+```
+
 
 # Endpoint
 
