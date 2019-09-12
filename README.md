@@ -115,6 +115,57 @@ following_count | The amount of users this users follows. | Integer
 total_favorited | The total number of likes this user has received. | Integer
 follow_status | Indicates if you follow this user,1 if true 0 if false. | Integer
 
+# Endpoint
+
+### GET getPost/{id}
+
+This endpoint allows you to retrieve a specific post by ID.
+
+# Parameters
+
+### Path parameters
+
+Path Parameter | Description | 
+------------ | -------------
+{id} | The id of the post you are searching for. |
+
+
+# Sample Request
+
+```js
+api.getPost('<user_id>')
+  .then(res => console.log(res.data.aweme_detail))
+  .catch(console.log);
+```
+# Sample Response
+
+
+```json
+{
+    "author_user_id":  12343,
+    "aweme_id": 3245,
+    "aweme_type": 1,
+    "create_time": 2019-09-12T20:52:25+00:00,
+    "music": "Back in Black - ACDC",
+    "prevent_download": False,
+    "rate": 12
+}
+```
+### Response definitions
+
+The following table describes each item in the response.
+
+Response Item | Description | Data type |
+------------ | ------------- |------------ | 
+author_user_id | The ID of the post author | String
+aweme_id | The ID of the post | String 
+aweme_type | The type of post. | Integer
+create_time | The time the post was created (in seconds). | Integer   
+music | The music used in this post. | MusicTrack
+prevent_download | True if user cannot download the video. | Boolean
+rate | Age rating for the video. | Integer
+
+
 
 
 
