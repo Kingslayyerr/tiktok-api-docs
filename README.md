@@ -2,7 +2,7 @@
 
 A reverse engineered API for the Tiktok application. Contains information about users. It shows a users followers, people they are following, and post information.
 
-## Endpoints
+## Endpoint
 
 ### POST api/{loginWithUsername}
 
