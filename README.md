@@ -8,7 +8,7 @@ Love using Tiktok?
 
 This free **API** allows you to gain a deeper understanding of your Tiktok metrics, analytics and data.
 
-It shows a Tiktok users followers, people they are following, and other valuable post information. 
+It shows a Tiktok user's followers, people they are following, and other valuable post information. 
 
 **Use Case:** A Tiktok user who wants to keep track of his or her statistics to measure their account performance over time.
 
