@@ -187,7 +187,9 @@ music | The music used in this post. | MusicTrack
 prevent_download | True if user cannot download the video. | Boolean
 rate | Age rating for the video. | Integer
 
+## Legal
 
-
+This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by TikTok
+or any of its affiliates or subsidiaries. This is an independent and unofficial API. Use at your own risk.
 
 
