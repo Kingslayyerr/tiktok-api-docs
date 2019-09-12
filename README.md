@@ -2,7 +2,7 @@
 
 A reverse engineered API for the Tiktok application. Contains information about users. It shows a users followers, people they are following, and post information.
 
-## Endpoint
+# Endpoint
 
 ### POST api/{loginWithUsername}
 
@@ -67,7 +67,7 @@ new_user | Indicates if a user is new | Integer
   "error-code": 404,
 }
 ```
-## Endpoint
+# Endpoint
 
 ### GET getUser/{id}
 
@@ -94,12 +94,12 @@ api.getUser('<user_id>')
 
 ```json
 {
-    "avatar_url":  "www.tiktok/username/profile_img,
-    "birthday": "December 1, 1990",
-    "can_be_found_by_phone": 562-323-9876,
-    "email": "jonnybonny@gmail.com",
-    "mobile": "562-323-3456",
-    "new_user": 1
+    "aweme_count":  22,
+    "favoriting_count": 4,
+    "follower_count": 300,
+    "following_count": 20,
+    "total_favorited": 8,
+    "follow_status": 1
 }
 ```
 ### Response definitions
@@ -108,22 +108,13 @@ The following table describes each item in the response.
 
 Response Item | Description | Data type |
 ------------ | ------------- |------------ | 
-avatar_url | The users profile image URL.| String
-birthday | The users birthday. | String 
-can_be_found_by_phone | The users phone number. | Integer
-email | The users email adress. | String   
-gender | The users gender. | Integer
-new_user | Indicates if a user is new | Integer
+aweme_count | The number of videos the user has uploaded.| Integer
+favoriting_count | The number of videos the user has liked | Integer 
+follower_count | The amount of followers the user has. | Integer
+following_count | The amount of users this users follows. | Integer   
+total_favorited | The total number of likes this user has received. | Integer
+follow_status | Indicates if you follow this user,1 if true 0 if false. | Integer
 
 
-## Example Error Response
-
-```json
-{
-  "captcha": "captchaanswer",
-  "description": "Account not found",
-  "error-code": 404,
-}
-```
 
 
