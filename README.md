@@ -206,6 +206,8 @@ This is an independent and unofficial API. Use at your own risk.
 
 ## Bonus
 
-I reverse engineer applications to understand how they work. Every software application is unique, and it is a joy to discover how they are different. 
+Before: Every software engineering application is built differently, and I find it an interesting and valuable experience to reverse engineer and discover how applications are implemented.
+
+After: I reverse engineer applications to understand how they work. Every software application is unique, and it is a joy to discover how they are different. 
 
 
