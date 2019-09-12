@@ -26,7 +26,68 @@ password | Required | The password for your account. | String
 # Sample Request
 
 ```js
-curl -I -X POST "https://api.tiktokunofficial.org/api/{loginWithUsername('<username>', '<password>')}"
+api.loginWithUsername('<username>', '<password>')
+  .then(res => console.log(res.data))
+  .catch(console.log)
+
+```
+# Sample Response
+
+
+```json
+{
+    "avatar_url":  "www.tiktok/username/profile_img,
+    "birthday": "December 1, 1990",
+    "can_be_found_by_phone": 562-323-9876,
+    "email": "jonnybonny@gmail.com",
+    "mobile": "562-323-3456",
+    "new_user": 1
+}
+```
+### Response definitions
+
+The following table describes each item in the response.
+
+Response Item | Description | Data type |
+------------ | ------------- |------------ | 
+avatar_url | The users profile image URL.| String
+birthday | The users birthday. | String 
+can_be_found_by_phone | The users phone number. | Integer
+email | The users email adress. | String   
+gender | The users gender. | Integer
+new_user | Indicates if a user is new | Integer
+
+
+## Example Error Response
+
+```json
+{
+  "captcha": "captchaanswer",
+  "description": "Account not found",
+  "error-code": 404,
+}
+```
+## Endpoint
+
+### GET getUser/{id}
+
+This endpoint allows you get a users ID.
+
+# Parameters
+
+### Path parameters
+
+Path Parameter | Description | 
+------------ | -------------
+{id} | The id of the user you are searching for. |
+
+
+# Sample Request
+
+```js
+api.getUser('<user_id>')
+  .then(res => console.log(res.data.user))
+  .catch(console.log);
 ```
 # Sample Response
 
