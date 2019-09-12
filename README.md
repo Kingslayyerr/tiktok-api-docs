@@ -14,7 +14,7 @@ It shows a Tiktok user's followers, people they are following, and other valuabl
 
 # Getting Started
 
-This API is equipped with many useful instance methods that allow a user to perform function such as **Logging-In**, **Getting User ID's**, and **Post ID's**. This allows a user of this API to scrape valuable **JSON** data. This data can be used to create another application that leverages Tiktok's database. 
+This API is equipped with many useful instance methods that allow a user to perform functions such as **Logging-In**, **Getting User ID's**, and **Post ID's**. This allows a user of this API to scrape valuable **JSON** data. This data can be used to create another application that leverages Tiktok's database. 
 
 An example of this type of third party application is SocialBlade. SocialBlade gathers data on the most popular platforms allowing influencers to track their engagement and analytics. Social blade currently does not have an integration for Tiktok. 
 
